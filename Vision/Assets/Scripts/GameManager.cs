@@ -7,9 +7,12 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    [SerializeField] private UnityEvent<string> addScore;
+    [SerializeField] private UnityEvent<string> CountIncrease;
     private Vector3 startPos;
     private int score;
+    private int Redcount;
+    private int Bluecount;
+    private int Yellowcount;
 
     private void Start()
     {
@@ -33,9 +36,15 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
+    public void CountUp(int countAmt)
+    {
+        
+        UpdateUI();
+    }
+
     private void UpdateUI()
     {
-        addScore.Invoke(score.ToString());
+        CountIncrease.Invoke(score.ToString());
     }
 
 

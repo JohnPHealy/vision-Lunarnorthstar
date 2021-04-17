@@ -141,7 +141,6 @@ GameObject:
   - component: {fileID: 727536430438954199}
   - component: {fileID: 727536430438954196}
   - component: {fileID: 727536430438954198}
-  - component: {fileID: 727536430438954197}
   - component: {fileID: 2195177894184543652}
   m_Layer: 6
   m_Name: Player
@@ -246,7 +245,7 @@ MonoBehaviour:
     m_ActionName: Movement/Jump[/Keyboard/w]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 727536430438954197}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: FireBullets, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -285,19 +284,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   cancelJumpEnabled: 1
---- !u!114 &727536430438954197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727536430438954184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b06a23b8b448c945bb023a425e05889, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 8087423252119897857, guid: f89b1ad6a19c6a64593d1adab49b8620, type: 3}
 --- !u!58 &2195177894184543652
 CircleCollider2D:
   m_ObjectHideFlags: 0
