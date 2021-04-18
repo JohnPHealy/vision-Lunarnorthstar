@@ -46,17 +46,17 @@ public class GameManager : MonoBehaviour
 
     public void CountUpRed(int countAmtR)
     {
-        Redcount = countAmtR /2;
+        Redcount = countAmtR ;
         UpdateUI();
     }
     public void CountUpBlue(int countAmtB)
     {
-        Bluecount = countAmtB /2;
+        Bluecount = countAmtB ;
         UpdateUI();
     }
     public void CountUpYellow(int countAmtY)
     {
-        Yellowcount = countAmtY /2;
+        Yellowcount = countAmtY ;
         UpdateUI();
     }
    

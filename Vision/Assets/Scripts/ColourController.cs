@@ -18,6 +18,9 @@ public class ColourController : MonoBehaviour
 
     [SerializeField] private GameManager manager;
 
+    private bool Redclicked = false;
+    private bool Blueclicked = false;
+    private bool Yellowclicked = false;
 
     void Start()
     {
@@ -43,7 +46,14 @@ public class ColourController : MonoBehaviour
 {
     if (RedLimit > 0)
     {
-        RedLimit -= 1;
+            if(Redclicked == false)
+            {
+                RedLimit -= 1;
+                Redclicked = true;
+                Blueclicked = false;
+                Yellowclicked = false;
+            }
+        
             
 
         RedCam.SetActive(true);
@@ -63,7 +73,13 @@ public void Blue(InputAction.CallbackContext context)
 {
     if (BlueLimit > 0)
     {
-        BlueLimit -= 1;
+            if (Blueclicked == false)
+            {
+                BlueLimit -= 1;
+                Redclicked = false;
+                Blueclicked = true;
+                Yellowclicked = false;
+            }
 
             RedCam.SetActive(false);
         BlueCam.SetActive(true);
@@ -83,7 +99,13 @@ public void Yellow(InputAction.CallbackContext context)
 {
     if (YellowLimit > 0)
     {
-        YellowLimit -= 1;
+            if (Yellowclicked == false)
+            {
+                YellowLimit -= 1;
+                Redclicked = false;
+                Blueclicked = false;
+                Yellowclicked = true;
+            }
 
             RedCam.SetActive(false);
             BlueCam.SetActive(false);

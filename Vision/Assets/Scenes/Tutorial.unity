@@ -1653,11 +1653,11 @@ PrefabInstance:
       objectReference: {fileID: 1471024223}
     - target: {fileID: 7170529195672493787, guid: e0d2b3f592f64ac4188253b2ae9d8398, type: 3}
       propertyPath: RedLimit
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7170529195672493787, guid: e0d2b3f592f64ac4188253b2ae9d8398, type: 3}
       propertyPath: BlueLimit
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7170529195672493787, guid: e0d2b3f592f64ac4188253b2ae9d8398, type: 3}
       propertyPath: YellowCam
@@ -1669,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 917835298}
     - target: {fileID: 7170529195672493787, guid: e0d2b3f592f64ac4188253b2ae9d8398, type: 3}
       propertyPath: YellowLimit
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d2b3f592f64ac4188253b2ae9d8398, type: 3}
