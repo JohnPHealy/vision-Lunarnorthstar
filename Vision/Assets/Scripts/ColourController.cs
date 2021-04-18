@@ -21,6 +21,7 @@ public class ColourController : MonoBehaviour
 
     void Start()
     {
+        /*
         RedMap.SetActive(false);
         BlueMap.SetActive(false);
         YellowMap.SetActive(false);    
@@ -28,6 +29,7 @@ public class ColourController : MonoBehaviour
         RedCam.SetActive(false);
         BlueCam.SetActive(false);
         YellowCam.SetActive(false);
+        */
     }
 
     private void Update()

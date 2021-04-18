@@ -123,6 +123,17 @@
                 },
                 {
                     "name": "",
+                    "id": "06d81b27-85b8-4b28-96f0-72f58b01fff9",
+                    "path": "<Keyboard>/numpad1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Red",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "37557a39-5c86-4e0a-807c-7c879f9d17c4",
                     "path": "<Keyboard>/2",
                     "interactions": "",
@@ -134,8 +145,30 @@
                 },
                 {
                     "name": "",
+                    "id": "9ab7b4d2-7df7-467d-91d8-18f99321f5ee",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Blue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4df663e0-f058-49ab-b700-5e464780d4e9",
                     "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yellow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e21b5c1-a41f-449e-9774-8bd4400409af",
+                    "path": "<Keyboard>/numpad3",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
