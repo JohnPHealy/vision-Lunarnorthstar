@@ -16,6 +16,8 @@ public class ColourController : MonoBehaviour
     [SerializeField] private int BlueLimit = 5;
     [SerializeField] private int YellowLimit = 5;
 
+    [SerializeField] private GameManager manager;
+
 
     void Start()
     {
@@ -28,19 +30,27 @@ public class ColourController : MonoBehaviour
         YellowCam.SetActive(false);
     }
 
-public void Red(InputAction.CallbackContext context)
+    private void Update()
+    {
+        manager.CountUpRed(RedLimit);
+        manager.CountUpBlue(BlueLimit);
+        manager.CountUpYellow(YellowLimit);
+    } 
+
+    public void Red(InputAction.CallbackContext context)
 {
     if (RedLimit > 0)
     {
         RedLimit -= 1;
+            
 
         RedCam.SetActive(true);
             BlueCam.SetActive(false);
             YellowCam.SetActive(false);
 
 
-            RedMap.SetActive(true);
-        BlueMap.SetActive(false);
+        RedMap.SetActive(true);
+            BlueMap.SetActive(false);
             YellowMap.SetActive(false);
 
     }
@@ -53,14 +63,14 @@ public void Blue(InputAction.CallbackContext context)
     {
         BlueLimit -= 1;
 
-        RedCam.SetActive(false);
-            BlueCam.SetActive(true);
+            RedCam.SetActive(false);
+        BlueCam.SetActive(true);
             YellowCam.SetActive(false);
 
 
             RedMap.SetActive(false);
         BlueMap.SetActive(true);
-        YellowMap.SetActive(false);
+            YellowMap.SetActive(false);
 
 
     }
@@ -73,13 +83,13 @@ public void Yellow(InputAction.CallbackContext context)
     {
         YellowLimit -= 1;
 
-        RedCam.SetActive(false);
+            RedCam.SetActive(false);
             BlueCam.SetActive(false);
-            YellowCam.SetActive(true);
+        YellowCam.SetActive(true);
 
 
             RedMap.SetActive(false);
-        BlueMap.SetActive(false);
+            BlueMap.SetActive(false);
         YellowMap.SetActive(true);
 
 

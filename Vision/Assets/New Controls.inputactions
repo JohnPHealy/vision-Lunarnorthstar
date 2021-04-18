@@ -35,7 +35,7 @@
                     "id": "0d878b32-3594-47cf-bbb4-10156b671900",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap(duration=0.2)"
                 },
                 {
                     "name": "Blue",
@@ -43,7 +43,7 @@
                     "id": "075e77ad-8bc6-467a-8b5d-7ee6e25588ab",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
                     "name": "Yellow",
@@ -51,7 +51,7 @@
                     "id": "12fb0bdd-300c-4722-9e6a-8d9a90b73929",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 }
             ],
             "bindings": [

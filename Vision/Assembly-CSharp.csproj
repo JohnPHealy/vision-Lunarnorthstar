@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\ColourController.cs" />
     <Compile Include="Assets\Scripts\Player_Movement.cs" />
-    <Compile Include="Assets\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerCombat.cs" />
     <Compile Include="Assets\Scripts\Player_Pickup.cs" />
     <Compile Include="Assets\Scripts\LoadLevelOnTrigger.cs" />

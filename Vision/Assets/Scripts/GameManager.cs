@@ -7,7 +7,9 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    [SerializeField] private UnityEvent<string> CountIncrease;
+    [SerializeField] private UnityEvent<string> CountRed;
+    [SerializeField] private UnityEvent<string> CountBlue;
+    [SerializeField] private UnityEvent<string> CountYellow;
     private Vector3 startPos;
     private int score;
     private int Redcount;
@@ -36,15 +38,28 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
-    public void CountUp(int countAmt)
+    public void CountUpRed(int countAmtR)
     {
-        
+        Redcount = countAmtR /2;
         UpdateUI();
     }
+    public void CountUpBlue(int countAmtB)
+    {
+        Bluecount = countAmtB /2;
+        UpdateUI();
+    }
+    public void CountUpYellow(int countAmtY)
+    {
+        Yellowcount = countAmtY /2;
+        UpdateUI();
+    }
+   
 
     private void UpdateUI()
     {
-        CountIncrease.Invoke(score.ToString());
+        CountRed.Invoke(Redcount.ToString());
+        CountBlue.Invoke(Bluecount.ToString());
+        CountYellow.Invoke(Yellowcount.ToString());
     }
 
 
