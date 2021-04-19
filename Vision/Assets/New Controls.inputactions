@@ -22,14 +22,6 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Shoot",
-                    "type": "Button",
-                    "id": "994ce5c3-b7ba-40b1-bd9c-fc95fb5d38b5",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "Red",
                     "type": "Button",
                     "id": "0d878b32-3594-47cf-bbb4-10156b671900",
@@ -148,17 +140,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d0d5d61f-9da6-494a-b4dc-a77959fda9c4",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard",
-                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
