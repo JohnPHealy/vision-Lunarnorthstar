@@ -2610,6 +2610,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 727536430438954198, guid: 43c06026cd1663340b81fa89dd5f8ea1, type: 3}
+      propertyPath: cancelJumpEnabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 727536430438954199, guid: 43c06026cd1663340b81fa89dd5f8ea1, type: 3}
       propertyPath: m_Mass
       value: 2
