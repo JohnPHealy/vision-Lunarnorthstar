@@ -122,6 +122,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
       Script: {instanceID: 1946}
@@ -240,6 +242,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1588}
     - Class: 114
       Script: {instanceID: 1592}
+    - Class: 114
+      Script: {instanceID: 1754}
     - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
@@ -360,6 +364,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
       Script: {instanceID: 1946}
@@ -478,6 +484,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1588}
     - Class: 114
       Script: {instanceID: 1592}
+    - Class: 114
+      Script: {instanceID: 1754}
     - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
@@ -600,6 +608,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
       Script: {instanceID: 1946}
@@ -720,6 +730,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1588}
     - Class: 114
       Script: {instanceID: 1592}
+    - Class: 114
+      Script: {instanceID: 1754}
     - Class: 114
       Script: {instanceID: 1816}
     - Class: 114
@@ -1067,7 +1079,7 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
-      Hash: c46f383c384df7449acbe18ca0d1fc4c
+      Hash: 7d0885820b282ae69f66e9d1ff961d90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1259,7 +1271,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 779beefbdc383b43365c6848359c3069
+      Hash: 3c03a7087bc9a16844ecc8c65d8f880c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerCombat

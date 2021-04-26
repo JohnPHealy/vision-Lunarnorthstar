@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private UnityEvent<string> CountRed;
     [SerializeField] private UnityEvent<string> CountBlue;
     [SerializeField] private UnityEvent<string> CountYellow;
+    [SerializeField] private UnityEvent<string> PowerUpRed;
     private Vector3 startPos;
     private int score;
     private int Redcount;
@@ -59,7 +60,12 @@ public class GameManager : MonoBehaviour
         Yellowcount = countAmtY ;
         UpdateUI();
     }
-   
+    public void PowerupRed()
+    {
+        Redcount ++;
+        UpdateUI();
+    }
+
 
     private void UpdateUI()
     {
